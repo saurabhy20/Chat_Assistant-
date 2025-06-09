@@ -16,7 +16,7 @@ import openai
 # ======================
 CONFIG = {
     "TELEGRAM_TOKEN": "7639863811:AAHQYHiKTJgjf6CHOg-8nLj9WUVATi8P6yo",
-    "OPENAI_API_KEY": "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",
+    "OPENAI_API_KEY": "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",
     "ADMIN_USER_ID": 6009143798,  # Your Telegram user ID
     "SYSTEM_PROMPT": "You are a Genius. Respond concisely and helpfully.",
     "MODEL": "gpt-4-turbo",
