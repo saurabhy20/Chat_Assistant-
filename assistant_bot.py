@@ -19,7 +19,7 @@ CONFIG = {
     "OPENAI_API_KEY": "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",
     "ADMIN_USER_ID": 6009143798,  # Your Telegram user ID
     "SYSTEM_PROMPT": "You are a Genius. Respond concisely and helpfully.",
-    "MODEL": "gpt-4-turbo",
+    "MODEL": "GPT‑4o",
     "MAX_HISTORY": 10,  # Number of messages to remember
     "TEMPERATURE": 0.7,
     "WELCOME_MESSAGE": "👋 Hello! I'm your SUZU☺️. How can I help you today?",
@@ -45,7 +45,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Set up OpenAI
-openai.api_key = CONFIG["OPENAI_API_KEY"]
+openai.api_key = CONFIG["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"]
 
 # Conversation history storage
 conversations = {}
